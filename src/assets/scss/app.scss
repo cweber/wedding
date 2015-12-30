@@ -3,7 +3,6 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import 'just-cait';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -45,4 +44,56 @@
 
 body{
 	background: #e4ead6;
+	color: #106e5e;
+}
+.alpha {
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+}
+.beta {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 16px;
+}
+.gamma {
+	font-family: 'Amatic SC', cursive;
+	font-size: 26px;
+}
+.delta {
+
+}
+.carson-top{ 
+	margin-top: 40px;
+}
+.carson {
+	position: relative;
+	z-index: 10;
+}
+.invite {
+	text-align: center;
+	background-color: #ffffff;
+	padding: 5px 20px;
+	.alpha {
+		line-height: 1;
+	}
+	.content {
+		z-index: 11;
+		position: relative;
+		margin-top: -24px;
+	}
+}
+.name-block {
+	margin: 40px 0;
+}
+.and-also {
+	text-align: center;
+}
+
+
+
+
+.apple {
+	font-family: 'Homemade Apple', cursive;
+}
+.amatic {
+	font-family: 'Amatic SC', cursive;
 }
